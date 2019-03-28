@@ -9,7 +9,7 @@ public abstract class Animal
     
     public String greeting()
     {
-        return hello() + ", I am " + name;
+        return hello() + ", my name is " + name;
     }
     // private
     private String name;
