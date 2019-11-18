@@ -13,7 +13,7 @@ public class GroupStudents
                new Student("Anne", 63),
             };
 
-      Student best = Test.getBestStudent(group);
+      Student best = Best.getBestStudent(group);
       System.out.println("The best student was " + best.getName() + " with a mark of " + best.getMark());
    }
 }
